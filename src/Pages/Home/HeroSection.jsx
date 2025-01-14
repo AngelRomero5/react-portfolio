@@ -15,6 +15,7 @@ export default function HeroSection() {
                         <p className="hero-section-description">
                             "Be the designer of your world and not merely the consumer of it."
                             <br />
+                            <br />
                             - James Clear, *Atomic Habits*
                         </p>
                     </div>

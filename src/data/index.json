@@ -28,10 +28,10 @@
         "portfolio": [
         {
             "id": 1,
-            "src": "/img/placeholder.png",
+            "src": "/img/woman-with-violin.jpg",
             "title": "Project 1",
             "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.",
-            "link" : ""
+            "link" : "Github"
         },
         {
             "id": 2,

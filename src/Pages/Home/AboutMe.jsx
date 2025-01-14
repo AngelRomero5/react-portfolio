@@ -16,7 +16,7 @@ export default function AboutMe() {
                     languages and frameworks.
                 </p>
                 <p className="hero-section-text">
-                    That is why I do not have fear of learning new things and I can produly say that I play multiple string
+                    That is why I do not have fear of learning new things and I can proudly say that I play multiple string
                     instruments I do  
                     {/* here I can put my hobbies in the about me section: scuba diving, music, gaming, homelab(server), traveling*/}
                 </p>
