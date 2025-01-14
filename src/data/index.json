@@ -4,25 +4,25 @@
             "id": 1,
             "src": "/img/html-5.png",
             "title": "Web Dev",
-            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+            "description": "Knowledge in front-end web development using HTML, CSS, and JavaScript to create responsive and visually appealing websites. I’m skilled in crafting clean layouts, implementing interactive features, and ensuring cross-browser compatibility for a seamless user experience."
         },
         {
             "id": 2,
             "src": "/img/atom.png",
             "title": "React",
-            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+            "description": "I have hands-on experience with React.js, building dynamic and responsive web applications. I am familiar with its component-based architecture, state management, and best practices for creating seamless user interfaces."
         },
         {
             "id": 3,
             "src": "/img/python.png",
             "title": "Python",
-            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+            "description": "I have practical experience with Python, using it for a variety of tasks including scripting, data analysis, and building efficient applications. I am familiar with its versatile libraries and best practices for writing clean, maintainable code."
         },
         {
             "id": 4,
             "src": "/img/asp.png",
             "title": "Asp.Net Core",
-            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+            "description": "I am familiar with ASP.NET Core, leveraging its features to build robust web applications and APIs. I’m familiar with its modular architecture, dependency injection, and tools for creating scalable, secure, and high-performance applications."
         }
     ],
         "portfolio": [

@@ -4,7 +4,7 @@ export default function AboutMe() {
     return(
         <section id='AboutMe' className="about-section">
             <div className="about-section-img">
-                <img src="./img/about-me.png" alt="aboutme"/>
+                <img src="./img/angel-girasoles.png" alt="aboutme"/>
             </div>
             <div className="hero-section-content-box about-section-box">
                 <p className="section-title">About</p>
@@ -18,7 +18,7 @@ export default function AboutMe() {
                 <p className="hero-section-text">
                     That is why I do not have fear of learning new things and I can produly say that I play multiple string
                     instruments I do  
-                    {/* here I can put my hobbies in the about me section: scuba diving, music, gaming, homelab(server) */}
+                    {/* here I can put my hobbies in the about me section: scuba diving, music, gaming, homelab(server), traveling*/}
                 </p>
             </div>
         </section>
