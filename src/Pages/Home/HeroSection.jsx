@@ -18,15 +18,17 @@ export default function HeroSection() {
                             - James Clear, *Atomic Habits*
                         </p>
                     </div>
-                    <div>
+                    <div className="hero-section-contact-forms">
                         <button className="btn btn-primary">Get In Touch</button>
                         <div className="social-icons">
-                            {/* Todo: add social icons */}
+                            <a href="https://github.com/AngelRomero5"><img src="/img/github.png" alt="GitHub" /></a>
+                            <a href="https://www.linkedin.com/in/angel-g-romero-rosario/"><img src="/img/linkedin.png" alt="LinkedIn" /></a>
+                            <a href="mailto:agabrielrr0@gmail.com"><img src="/img/mail.png" alt="Email"/></a>
                         </div>
                     </div>
                 </div>
                 <div className="hero-section-image">
-                    <img src="me.jpg" alt="Angel"/>
+                    <img src="/img/me.jpg" alt="Angel"/>
                 </div>
             </section>
         </>

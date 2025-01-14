@@ -1,0 +1,53 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "src": "/img/html-5.png",
+            "title": "Web Dev",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+        },
+        {
+            "id": 2,
+            "src": "/img/atom.png",
+            "title": "React",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+        },
+        {
+            "id": 3,
+            "src": "/img/python.png",
+            "title": "Python",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+        },
+        {
+            "id": 4,
+            "src": "/img/asp.png",
+            "title": "Asp.Net Core",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque."
+        }
+    ],
+        "portfolio": [
+        {
+            "id": 1,
+            "src": "/img/placeholder.png",
+            "title": "Project 1",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.",
+            "link" : ""
+        },
+        {
+            "id": 2,
+            "src": "/img/placeholder.png",
+            "title": "Project 2",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.",
+            "link" : ""
+
+        },
+        {
+            "id": 3,
+            "src": "/img/placeholder.png",
+            "title": "Project 3",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.",
+            "link" : ""
+        }
+        
+    ]
+}
