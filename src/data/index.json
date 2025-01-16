@@ -28,16 +28,16 @@
         "portfolio": [
         {
             "id": 1,
-            "src": "/img/woman-with-violin.jpg",
-            "title": "Project 1",
-            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.",
-            "link" : "Github"
+            "src": "/img/place-holder.jpg",
+            "title": "Collector's App",
+            "description": "This app was created out of the neccesity of having a place to store and organize my collection of Hotwheels. It is great!",
+            "link" : "https://github.com/AngelRomero5/hotwheels-collector-app"
         },
         {
             "id": 2,
             "src": "/img/placeholder.png",
-            "title": "Project 2",
-            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.",
+            "title": "Matricula TA",
+            "description": "This web app was created as a prototype for a school project. People can see the courses available and register for them.",
             "link" : ""
 
         },

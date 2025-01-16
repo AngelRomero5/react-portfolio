@@ -35,3 +35,8 @@ export default function HeroSection() {
         </>
     );
 }
+// Todo:  
+// Here I need to add a functionality that when I click on the "next" button to 
+// change the picture, the title changes too, for example: photo of me with guitar, then the title should say 
+// "Hardcore Musician", then, next photo of me scuba diving, then the title should say "Scuba Diver", etc.
+// Here i will put: gamer, musician, traveler, scuba diver,  
