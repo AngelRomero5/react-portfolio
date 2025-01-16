@@ -7,7 +7,7 @@ export default function AboutMe() {
                 <img src="./img/angel-girasoles.png" alt="aboutme"/>
             </div>
             <div className="hero-section-content-box about-section-box">
-                <p className="section-title">About</p>
+                <p className="sub-title">About</p>
                 <h1 className="skill-section-description">About Me</h1>
                 <p className="hero-section-text">
                     I am a very passionate and dedicated person who loves to learn new things and explore new opportunities. 
