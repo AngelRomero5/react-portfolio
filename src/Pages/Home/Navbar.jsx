@@ -38,11 +38,12 @@ function Navbar() {
         <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div>
                 <img src="./img/a-letter.png" alt="logo" />
-                <a className={`nav_hamburguer ${navActive ? "active" : ""}`} onClick={toggleNav}></a>
-                <span className="hamburger_line"></span>
-                <span className="hamburger_line"></span>
-                <span className="hamburger_line"></span>
             </div>
+            <a className={`nav-hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
+                <span className="hamburger-line"></span>
+                <span className="hamburger-line"></span>
+                <span className="hamburger-line"></span>
+            </a>
             <div className={`navbar-items ${navActive ? "active" : ""}`}>
                 <ul>
                     <li>

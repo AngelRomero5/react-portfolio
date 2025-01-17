@@ -9,7 +9,7 @@ export default function MyPortfolio() {
                     <h2 className="section-heading">My Porfolio</h2>
                 </div>
                 <div className='portfolio-github-btn-div'>
-                    <button className='btn btn-outline-primary'><a href="https://github.com/AngelRomero5"><img src="/img/github-black.png" alt="GitHub" /></a>Visit My Github</button>
+                    <button className='btn btn-outline-primary'><a href="https://github.com/AngelRomero5"></a>Visit My Github</button>
                 </div>
             </div>
             <div className="portfolio-section-container">

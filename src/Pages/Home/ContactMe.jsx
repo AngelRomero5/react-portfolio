@@ -1,4 +1,18 @@
+function sendEmail(){
+    const firstName = document.getElementById('first-name').value;
+    const lastName = document.getElementById('last-name').value;
+    const phoneNumber = document.getElementById('phone-number').value;
+    const email = document.getElementById('email').value;
+    const description = document.getElementById('description').value;
 
+    const data = {
+        firstName,
+        lastName,
+        phoneNumber,
+        email,
+        description
+    }
+}
 
 export default function ContactMe() {
     
@@ -37,7 +51,7 @@ export default function ContactMe() {
                     </label>
                 </div>
                 <div>
-                    <button type="submit" className="btn btn-primary" id='submit-button' onclick="">Submit</button>
+                    <button type="submit" className="btn btn-primary" id='submit-button' onClick={sendEmail}>Submit</button>
                 </div>
             </form>
 

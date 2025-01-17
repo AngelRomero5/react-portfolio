@@ -20,7 +20,7 @@ export default function HeroSection() {
                         </p>
                     </div>
                     <div className="hero-section-contact-forms">
-                        <button className="btn btn-primary">Get In Touch</button>
+                        <a href="#Contact"><button className="btn btn-primary">Get In Touch</button></a>
                         <div className="social-icons">
                             <a href="https://github.com/AngelRomero5"><img src="/img/github.png" alt="GitHub" /></a>
                             <a href="https://www.linkedin.com/in/angel-g-romero-rosario/"><img src="/img/linkedin.png" alt="LinkedIn" /></a>

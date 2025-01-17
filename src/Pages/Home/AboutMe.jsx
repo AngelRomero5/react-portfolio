@@ -10,15 +10,14 @@ export default function AboutMe() {
                 <p className="sub-title">About</p>
                 <h1 className="skill-section-description">About Me</h1>
                 <p className="hero-section-text">
-                    I am a very passionate and dedicated person who loves to learn new things and explore new opportunities. 
-                    I have gained experience working with different types of teams in multiple environments and always ready to take
-                    new challenges and grow as a professional and as a human being. I have experience with multiple programming 
-                    languages and frameworks.
+                    I am a passionate and dedicated developer, ready to take new challenges and opportunities 
+                    to grow professionally. I strive to apply what I learn at work to enhance my day-to-day life. 
+                    I like to think of myself as a person with many 
                 </p>
                 <p className="hero-section-text">
-                    That is why I do not have fear of learning new things and I can proudly say that I play multiple string
-                    instruments I do  
-                    {/* here I can put my hobbies in the about me section: scuba diving, music, gaming, homelab(server), traveling*/}
+                    Beyond coding 🧑🏽‍💻, I enjoy creating music 🎶, exploring the underwater 
+                    world through scuba diving 🤿, traveling the globe 🌎, and immersing myself 
+                    in gaming adventures 🎮.
                 </p>
             </div>
         </section>
