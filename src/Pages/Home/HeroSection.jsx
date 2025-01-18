@@ -1,16 +1,45 @@
 import React from "react";
+import { useState, useEffect } from "react";
 
 export default function HeroSection() {
+
+    const [textIndex, setTextIndex] = useState(0);
+    const [photoIndex, setPhotoIndex] = useState(0);
+
+    const texts = [
+        { title: "Software", subtitle: "Developer" },
+        { title: "Devoted", subtitle: "Musician" },
+        { title: "Scuba", subtitle: "Diver" },
+        { title: "World", subtitle: "Traveler" },
+    ];
+
+    const photos = [
+        { src: "/img/me.jpg" },
+        { src: "/img/cuatro.JPEG"},
+        { src: "/img/lago.png" },
+        { src: "/img/volcan.JPG" },
+    ];
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
+            setPhotoIndex((prevIndex) => (prevIndex + 1) % photos.length);
+        }, 4000);
+
+        return () => clearInterval(interval);
+    }, [texts.length], [photos.length]);
+
+
+
     return (
-        <>
             <section id="HeroSection" className="hero-section">
                 <div className="hero-section-content-box">
                     <div className="hero-section-content">
                         <p className="section-title">Hi, I'm Ángel Gabriel</p>
                         <h1 className="hero-section-title">
-                            <span className="hero-section-title-color">Software</span>{" "}
+                            <span className="hero-section-title-color">{texts[textIndex].title}</span>{" "}
                             <br /> 
-                            Developer
+                            {texts[textIndex].subtitle}
                         </h1>
                         <p className="hero-section-description">
                             "Be the designer of your world and not merely the consumer of it."
@@ -29,14 +58,10 @@ export default function HeroSection() {
                     </div>
                 </div>
                 <div className="hero-section-image">
-                    <img src="/img/me.jpg" alt="Angel"/>
+                    <img src={photos[photoIndex].src} alt="Angel"/>
                 </div>
             </section>
-        </>
     );
 }
-// Todo:  
-// Here I need to add a functionality that when I click on the "next" button to 
-// change the picture, the title changes too, for example: photo of me with guitar, then the title should say 
-// "Hardcore Musician", then, next photo of me scuba diving, then the title should say "Scuba Diver", etc.
-// Here i will put: gamer, musician, traveler, scuba diver,  
+// Crear una seccion de hobbies
+// en alguna parte tengo que poner un video sin sonido que contenga videitos de mis hobbies, como scuba diving, viajes, y música.

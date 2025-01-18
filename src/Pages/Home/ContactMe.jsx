@@ -1,20 +1,20 @@
-function sendEmail(){
-    const firstName = document.getElementById('first-name').value;
-    const lastName = document.getElementById('last-name').value;
-    const phoneNumber = document.getElementById('phone-number').value;
-    const email = document.getElementById('email').value;
-    const description = document.getElementById('description').value;
-
-    const data = {
-        firstName,
-        lastName,
-        phoneNumber,
-        email,
-        description
-    }
-}
+import React, { useState, useEffect } from 'react';
+import { useForm } from '@formspree/react';
 
 export default function ContactMe() {
+
+    const [showModal, setShowModal] = useState(false);
+    const [state, handleSubmit] = useForm("mbllvgrb");
+
+    useEffect(() => {
+        if (state.succeeded) {
+        setShowModal(true);
+        }
+    }, [state.succeeded]);
+
+    const handleCloseModal = () => {
+        setShowModal(false);
+    };
     
     return(
         <section id="Contact" className="contact-section">
@@ -22,9 +22,9 @@ export default function ContactMe() {
             <div>
                 <p className="sub-title">Get In Touch</p>
                 <h2>Contact Me</h2>
-                <p className="text-lg">If you want to know more about me and my work feel free to reach out. I will get back to you ASAP!</p>
+                <p className="text-lg">If you want to know more about me and my work feel free to reach out. I will get back to you soon!</p>
             </div>
-            <form className="contact-form-container">
+            <form className="contact-form-container" onSubmit={handleSubmit}>
                 <div className="container">
                     <label htmlFor="first-name" className="contact-label">
                         <span className="text-md">First Name</span>
@@ -47,14 +47,25 @@ export default function ContactMe() {
                     </label>
                     <label htmlFor="description" className="contact-label">
                         <span className="text-md">Message</span>
-                        <textarea type="text" id="description" className="contact-input text-md" rows={8} placeholder="Type your message here"/>
+                        <textarea type="text" id="description" className="contact-input text-md" name="message" rows={8} placeholder="Type your message here"/>
                     </label>
                 </div>
                 <div>
-                    <button type="submit" className="btn btn-primary" id='submit-button' onClick={sendEmail}>Submit</button>
+                    <button type="submit" className="btn btn-primary" id='submit-button' disabled={state.submitting}>Submit</button>
                 </div>
             </form>
 
+            {showModal && (
+                <div className="modal">
+                <div className="modal-content">
+                    <p className="text-md">Thanks for contacting me!</p>
+                    <br />
+                    <button onClick={handleCloseModal} className="btn btn-primary">
+                        Close
+                    </button>
+                </div>
+                </div>
+            )}
         </section>
     );
 }
