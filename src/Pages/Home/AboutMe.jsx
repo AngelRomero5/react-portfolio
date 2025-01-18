@@ -12,7 +12,7 @@ export default function AboutMe() {
                 <p className="hero-section-text">
                     I am a passionate and dedicated developer, ready to take new challenges and opportunities 
                     to grow professionally. I strive to apply what I learn at work to enhance my day-to-day life. 
-                    I like to think of myself as a person with many 
+                    I like to think of myself as an explorer, with many interests and hobbies.
                 </p>
                 <p className="hero-section-text">
                     Beyond coding 🧑🏽‍💻, I enjoy creating music 🎶, exploring the underwater 
