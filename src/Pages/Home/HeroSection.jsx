@@ -9,13 +9,13 @@ export default function HeroSection() {
     const texts = [
         { title: "Software", subtitle: "Developer" },
         { title: "Devoted", subtitle: "Musician" },
-        { title: "Scuba", subtitle: "Diver" },
+        // { title: "Scuba", subtitle: "Diver" },
         { title: "World", subtitle: "Traveler" },
     ];
 
     const photos = [
         { src: "/img/me.jpg" },
-        { src: "/img/cuatro.JPEG"},
+        // { src: "/img/cuatro.JPEG"},
         { src: "/img/lago.png" },
         { src: "/img/volcan.JPG" },
     ];
@@ -63,5 +63,3 @@ export default function HeroSection() {
             </section>
     );
 }
-// Crear una seccion de hobbies
-// en alguna parte tengo que poner un video sin sonido que contenga videitos de mis hobbies, como scuba diving, viajes, y música.
