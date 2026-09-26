@@ -50,10 +50,13 @@ function Navbar() {
                         <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="HeroSection" className="navbar-content">Home</Link>
                     </li>
                     <li>
-                        <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar-content">Portfolio</Link>
+                        <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="mySkills" className="navbar-content">Expertise</Link>
                     </li>
                     <li>
                         <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="AboutMe" className="navbar-content">About Me</Link>
+                    </li>
+                    <li>
+                        <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar-content">Portfolio</Link>
                     </li>
                 </ul>
             </div>

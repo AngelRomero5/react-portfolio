@@ -8,44 +8,44 @@
         },
         {
             "id": 2,
+            "src": "/img/asp.png",
+            "title": "Asp.Net Core",
+            "description": "I am familiar with ASP.NET Core, leveraging its features to build robust web applications and APIs. I’m familiar with its modular architecture, dependency injection, and tools for creating scalable, secure, and high-performance applications."
+        },
+        {
+            "id": 3,
             "src": "/img/atom.png",
             "title": "React",
             "description": "I have hands-on experience with React.js, building dynamic and responsive web applications. I am familiar with its component-based architecture, state management, and best practices for creating seamless user interfaces."
         },
         {
-            "id": 3,
+            "id": 4,
             "src": "/img/python.png",
             "title": "Python",
             "description": "I have practical experience with Python, using it for a variety of tasks including scripting, data analysis, and building efficient applications. I am familiar with its versatile libraries and best practices for writing clean, maintainable code."
-        },
-        {
-            "id": 4,
-            "src": "/img/asp.png",
-            "title": "Asp.Net Core",
-            "description": "I am familiar with ASP.NET Core, leveraging its features to build robust web applications and APIs. I’m familiar with its modular architecture, dependency injection, and tools for creating scalable, secure, and high-performance applications."
         }
     ],
         "portfolio": [
         {
             "id": 1,
-            "src": "/img/place-holder.jpg",
-            "title": "Collector's App",
-            "description": "This app was created out of the neccesity of having a place to store and organize my collection of Hotwheels. It is great!",
-            "link" : "https://github.com/AngelRomero5/hotwheels-collector-app"
+            "src": "/img/speedvault.png",
+            "title": "Speed Vault",
+            "description": "This app was created out of the neccesity of having a place to store and organize my collection of Hotwheels. Made with React and ExpressJS",
+            "link" : "https://speed-vault.com"
         },
         {
             "id": 2,
-            "src": "/img/placeholder.png",
-            "title": "Matricula TA",
-            "description": "This web app was created as a prototype for a school project. People can see the courses available and register for them.",
-            "link" : ""
+            "src": "/img/julio11.png",
+            "title": "Julio Once",
+            "description": "A project for RSVP-ing for my wedding, based on React I included a gallery, dress code ideas, our story, among many other features.",
+            "link" : "https://julio11.com"
 
         },
         {
             "id": 3,
             "src": "/img/placeholder.png",
-            "title": "Project 3",
-            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.",
+            "title": "Extracto",
+            "description": "An OCR tool I built for scaning written notes and creating invoices using React and Python. ",
             "link" : ""
         }
         
